@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Root CA Checker</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="./blocked.js"></script>
+</head>
+
+<body>
+<div class="main">
+    <h1>Root CA not trusted</h1>
+    <p>
+        The certificate for the resource at:
+        <code id="originURL">Loading…</code>
+        has been signed by the root certificate authority:
+        <code id="rootCertIssuer">Loading…</code>
+        which is not marked as trusted.
+    </p>
+    <button id="allowDomain">Loading…</button>
+    <button id="allowIssuer">Loading…</button>
+</div>
+</body>
+</html>
